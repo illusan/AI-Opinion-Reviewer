@@ -1,6 +1,6 @@
 body{
     width: 300px;
-    min-height: 200px;
+    min-height: 550px;
     background-color: #0c0a14;
     color: #e0e0e0;
     font-family: 'Courier New', Courier, monospace;
@@ -12,9 +12,22 @@ body{
     box-sizing: border-box;
 }
 
-h2 {
+h2{
     margin-top: 0;
     color: #74A0D1; 
+    text-align: center;
+}
+
+p {
+    color: #b3b3b3;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    
+    scrollbar-width: thin;
+    scrollbar-color: #74A0D1 transparent;
 }
 
 button {
