@@ -5,7 +5,13 @@
   "description": "Inteligentny asystent zakupowy, który w kilka sekund analizuje i podsumowuje opinie klientów.",
   "action": {
     "default_popup": "popup.html",
-    "default_title": "AI Reviewer - Analizuj opinie"
+    "default_title": "AI Reviewer - Analizuj opinie",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
   },
   "permissions": [
     "activeTab",
